@@ -3,11 +3,12 @@ An appliction for CRUD operations on MongoDB using flask+python backend and buil
 
 The application should connect to a MongoDB database.
 The application should provide the following REST API endpoints:
-    GET /users - Returns a list of all users.
-    GET /users/<id> - Returns the user with the specified ID.
-    POST /users - Creates a new user with the specified data.
-    PUT /users/<id> - Updates the user with the specified ID with the new data.
-    DELETE /users/<id> - Deletes the user with the specified ID.
+
+    -1.GET /users - Returns a list of all users.
+    -2.GET /users/<id> - Returns the user with the specified ID.
+    -3.POST /users - Creates a new user with the specified data.
+    -4.PUT /users/<id> - Updates the user with the specified ID with the new data.
+    -5.DELETE /users/<id> - Deletes the user with the specified ID.
 
 
 Setup and installation
