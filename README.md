@@ -46,11 +46,11 @@ Setup and installation
    1. Test in the POSTMAN
    2. install postman desktop agent
       1. The REST API endpoints:
-    GET /users - Returns a list of all users.
-    GET /users/<id> - Returns the user with the specified ID.
-    POST /users - Creates a new user with the specified data.
-    PUT /users/<id> - Updates the user with the specified ID with the new data.
-    DELETE /users/<id> - Deletes the user with the specified ID.
+         1. GET /users - Returns a list of all users.
+         2. GET /users/<id> - Returns the user with the specified ID.
+         3. POST /users - Creates a new user with the specified data.
+         4. PUT /users/<id> - Updates the user with the specified ID with the new data.
+         5. DELETE /users/<id> - Deletes the user with the specified ID.
 
 
 6. To Dockerize :
