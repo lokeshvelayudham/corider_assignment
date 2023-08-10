@@ -24,15 +24,15 @@ Setup and installation
 
 
 3. Install & Setup MongoDb Databsae using **homebrew**
-      -install MongoDb community in the local
-         ```brew install mongodb-community@6.0``` 
-      -To Start mongoDb server 
-          ```brew services start mongodb-community@6.0```
-      -After starting the server open a new terminal 
-          ```mongo```
-          ```use Collection```
-          ```db.createCollection("users")```
-    -To insert the data into the db
+   1. install MongoDb community in the local
+      1. ```brew install mongodb-community@6.0``` 
+   2. To Start mongoDb server 
+      1. ```brew services start mongodb-community@6.0```
+   3. After starting the server open a new terminal
+      1. ```mongo```
+      2. ```use Collection```
+      3. ```db.createCollection("users")```
+   4. To insert the data into the db
         ```db.users.insert({
             "name": "John Doe",
             "email": "john@example.com",
@@ -42,7 +42,7 @@ Setup and installation
 4. Run the Application.
 * flask run
 
-5. Testing the Application using CRUD
+1. Testing the Application using CRUD
    1. Test in the POSTMAN
    2. install postman desktop agent
       1. The REST API endpoints:
