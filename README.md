@@ -24,15 +24,15 @@ Setup and installation
 
 
 3. Install & Setup MongoDb Databsae using **homebrew**
-      install MongoDb community in the local
+      -install MongoDb community in the local
          ```brew install mongodb-community@6.0``` 
-      To Start mongoDb server 
+      -To Start mongoDb server 
           ```brew services start mongodb-community@6.0```
-      After starting the server open a new terminal 
+      -After starting the server open a new terminal 
           ```mongo```
           ```use Collection```
           ```db.createCollection("users")```
-          To insert the data into the db
+    -To insert the data into the db
         ```db.users.insert({
             "name": "John Doe",
             "email": "john@example.com",
