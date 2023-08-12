@@ -29,7 +29,7 @@ Setup and installation
    2. To Start mongoDb server 
       1. ```brew services start mongodb-community@6.0```
    3. After starting the server open a new terminal
-      1. ```mongo```
+      1. ```mongosh```
       2. ```use Collection```
       3. ```db.createCollection("users")```
    4. To insert the data into the db
